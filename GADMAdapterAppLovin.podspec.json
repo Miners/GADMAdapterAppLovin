@@ -1,0 +1,25 @@
+{
+  "name": "GADMAdapterAppLovin",
+  "version": "1.0.0",
+  "summary": "Google Mediation Networks: AppLovin",
+  "description": "AppLovin adapter of the Google Mediation Networks.",
+  "homepage": "https://www.applovin.com",
+  "license": {
+    "text": "Copyright 2015 AppLovin Inc. All Rights Reserved.",
+    "type": "Copyright"
+  },
+  "authors": "AppLovin Inc.",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "AppLovinSDK": "~> 3.1",
+    "Google-Mobile-Ads-SDK": "~> 7.5"
+  },
+  "source_files": "AdMob/iOS/AppLovinCustomEvent{Inter}.{h,m}",
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/Miners/SDK-Network-Adaptors.git",
+    "commit": "1e291b468643a725936dfa01bd46f33df264b751"
+  }
+}
